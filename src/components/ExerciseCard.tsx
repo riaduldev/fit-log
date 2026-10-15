@@ -33,7 +33,7 @@ const ExerciseCard = ({ exercise }: ExerciseCardProps) => {
           className="object-cover"
         />
 
-        <span className="absolute left-3 top-3 rounded-full bg-[#C2F800] px-3 py-1 text-xs font-semibold text-black">
+        <span className="absolute left-3 top-3 rounded-full !bg-[#C2F800] px-3 py-1 text-xs font-semibold text-black">
           {difficulty}
         </span>
 

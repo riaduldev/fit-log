@@ -5,7 +5,16 @@ const nextConfig: NextConfig = {
   experimental: {
     agentFeedback: true,
   },
-  
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'img.magnific.com',
+        port: '',
+        pathname: '**',
+      },
+    ],
+  },
   cacheComponents: true,
   partialPrefetching: true,
   reactCompiler: true,
